@@ -46,6 +46,8 @@ app.get("/api/:rapperName", (request, response) => {
 });
 
 // telling our server to listen to port number
-app.listen(process.env.port || PORT, () => {
-  console.log(`The server is running on port ${PORT}! You better go catch it!`);
+app.listen(process.env.port, () => {
+  console.log(
+    `The server is running on port ${process.env.port}! You better go catch it!`
+  );
 });
