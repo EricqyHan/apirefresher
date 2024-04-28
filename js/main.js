@@ -12,7 +12,7 @@ async function apiRequest() {
     console.log(data);
     document.querySelector("#age").innerText = data.age;
     document.querySelector("#birthname").innerText = data.birthName;
-    document.querySelector("#birthlocation").innerText = data.birthlocation;
+    document.querySelector("#birthlocation").innerText = data.birthLocation;
   } catch (error) {
     console.log(error);
   }
