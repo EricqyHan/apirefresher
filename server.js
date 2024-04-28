@@ -7,14 +7,19 @@ app.use(cors());
 
 const rappers = {
   "21 savage": {
-    age: 29,
+    age: 31,
     birthName: "Shéyaa Bin Abraham-Joseph",
     birthLocation: "London, England",
   },
   "chance the rapper": {
-    age: 29,
+    age: 31,
     birthName: "Chancelor Bennett",
     birthLocation: "Chicago, Illinois",
+  },
+  "rich brian": {
+    age: 24,
+    birthName: "Brian Imanuel Soewarno",
+    birthLocation: "Jakarta, Indonesia",
   },
   dylan: {
     age: 29,
