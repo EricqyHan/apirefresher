@@ -1,6 +1,9 @@
 const express = require("express"); // make sure server has access to express
 const app = express(); // this will hold express for us
 const PORT = 8000;
+const cors = require("cors");
+
+app.use(cors());
 
 const rappers = {
   "21 savage": {
